@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="cbe2d61fabe5f6bada5c0ab53161a802cc866030f3556e91523847b6f66a2bbd.html">Registro De Usuario En Utest.Com</a></span>
+                > <span class="truncate-60"><a
+                    href="059f8275116c3ec9f34bdbab5d780669f5d1dbd4ad43fae79d6eae27e6c76d56.html">Registro de Hector en la pagina Utest.com </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-03-2022 23:20</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registro De Usuario En Utest.Com </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Registro de Hector en la pagina Utest.com
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected respuesta registroExpected: is (true) but: was (false)</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.choucair.certification.proyectobase.stepdefinitions.UtestStepDefinition.elRegistroMuestraLaNotificacionDeCompletadoLaConfiguracionEnPantalla(UtestStepDefinition.java:38)<br />✽.el registro muestra la notificacion de completado la configuracion en pantalla(src/test/resources/features/registro_usuario.feature:10)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource14945970545601221940.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="da99465aedc5e910ce56b8be390dc265a47a8125275c5b8cb0cc4ba430b8ec09.png" title=" Given Hector desea registrarse en Utest.com" width="1360"/>
+                <img src="da99465aedc5e910ce56b8be390dc265a47a8125275c5b8cb0cc4ba430b8ec09.png" title=" Hector abrir" width="1360"/>
+                <img src="da99465aedc5e910ce56b8be390dc265a47a8125275c5b8cb0cc4ba430b8ec09.png" title=" Hector opens the Pagina utest" width="1360"/>
+                <img src="5aa521daf646c27857c991de3b6d4ab2aaed4070e82ad13c50913c75e35f9f68.png" title=" Hector clicks on Boton para iniciar registro" width="1360"/>
+                <img src="1f5d1c379193571d4feed9b6a8d226136b226b4cf65d6e37a88754e35621dddb.png" title=" Hector abrir (completed)" width="1360"/>
+                <img src="79ea4bf0c314a529f75a20c6a31495f06e62875c19ae3af38160210d527d83ae.png" title=" Given Hector desea registrarse en Utest.com (completed)" width="1360"/>
+                <img src="3788b702a38f7dc3d37de5eaea492e4029b4b1045b505336f034a8f6279c6637.png" title=" When el usuario ingresa los datos requeridos por el sistema
+| nombre | apellido | email | mesNacimiento | diaNacimiento | anoNacimiento | idioma | ciudad | zip | pais | celular | modelo | sistemaOperativo | contrasena |
+| Hector | Duran | hector2@gmail.com | January | 28 | 1993 | Spanish | Panama City Panama | 00000 | Panama | Huawei | Poco F2 Pro | Android 10 | Hector12345# |" width="1360"/>
+                <img src="3788b702a38f7dc3d37de5eaea492e4029b4b1045b505336f034a8f6279c6637.png" title=" Hector ingresar" width="1360"/>
+                <img src="3788b702a38f7dc3d37de5eaea492e4029b4b1045b505336f034a8f6279c6637.png" title=" Hector enters 'Hector' into Primer nombre" width="1360"/>
+                <img src="23dd1a95359775b92d5450c2053a8902a9d17b5d1f51a0befa2376cd570d42e9.png" title=" Hector enters 'Duran' into Apellido" width="1360"/>
+                <img src="851e93fc35b5cf27dc420fd9655f9b23c4f7de6a1479ee0896cfd9a61e16b3d8.png" title=" Hector enters 'hector2@gmail.com' into Direccion de correo" width="1360"/>
+                <img src="904a7299d57b8e7007b78143dee5ddb0557e548141b7ddf407f0f43e28b659e5.png" title=" Hector select January on Mes de nacimiento" width="1360"/>
+                <img src="e5075c9c1fa1e2102de836861447d299c3b73520a710b6a7b87a8ba41e0ac21b.png" title=" Hector select 28 on Dia de nacimiento" width="1360"/>
+                <img src="e2dc380f60078881b6c9d9640cef043d7ce5a608fe94dec5a7073c0c2e8a3834.png" title=" Hector select 1993 on A&Atilde;&plusmn;o de nacimiento" width="1360"/>
+                <img src="6644ba22032b51ffb11f9ef0520db6366bef5b44a3036f7b51f35f17c09ecd1a.png" title=" Hector enters 'Spanish' into Idioma hablado" width="1360"/>
+                <img src="2a571bd55e24403a00ec06b26117db0dac6d2aab132aa412696c65414983f9d0.png" title=" Hector types 'ARROW_DOWN' in Idioma hablado" width="1360"/>
+                <img src="aba6d58329f9cebb2f15edbcef00cf35ee600ab2d7f93738808a6f077eaaf9a8.png" title=" Hector types 'ENTER' in Idioma hablado" width="1360"/>
+                <img src="ea57eafeba791bb199adaf24d64d5815e47598b344c05b425095b173733aca89.png" title=" Hector clicks on Boton de siguiente ubicacion" width="1360"/>
+                <img src="ea57eafeba791bb199adaf24d64d5815e47598b344c05b425095b173733aca89.png" title=" Hector ingresar (completed)" width="1360"/>
+                <img src="ab5bff83e8936d025ab49f11df751f6fccecadc2a62b59f0b43cb50b73273f12.png" title=" Hector ingresar direccion" width="1360"/>
+                <img src="ab5bff83e8936d025ab49f11df751f6fccecadc2a62b59f0b43cb50b73273f12.png" title=" Hector enters 'Panama City Panama' into Ciudad de ubicacion" width="1360"/>
+                <img src="0981ea4ef9cbe9a97c2169fc758219f6775220ba081972038103d79b1ece7400.png" title=" Hector types 'ARROW_DOWN' in Ciudad de ubicacion" width="1360"/>
+                <img src="f94920d30d2288a9e19d725d80b26f75a5814b290f9f0960d8d4a40b34c625cd.png" title=" Hector types 'ENTER' in Ciudad de ubicacion" width="1360"/>
+                <img src="4a0b3680b152674fdaa93c2c208670b06e49e7caa131e2ce953ef1965e53e88c.png" title=" Hector enters '00000' into Codigo postal de ubicacion" width="1360"/>
+                <img src="d5b242746dfe67e2c01f903f1e6229d402666b25347c9465150b73f719409087.png" title=" Hector clicks on Listado de paises" width="1360"/>
+                <img src="dc815a750527c98adeae71151a1ed4e935d3aa529ef318a0a55438c375a877ea.png" title=" Hector enters 'Panama' then hits ARROW_DOWN and ENTER into Pais de ubicacion" width="1360"/>
+                <img src="25c84d196f539e381ea9982ae8f0f723970763cc2c5f67956d3832ae5b56faf8.png" title=" Hector clicks on Boton de siguiente dispositivo" width="1360"/>
+                <img src="25c84d196f539e381ea9982ae8f0f723970763cc2c5f67956d3832ae5b56faf8.png" title=" Hector ingresar direccion (completed)" width="1360"/>
+                <img src="edd78f74ded90d525778a63702bf6d678df1788ffaaffd04fb25ace91ff806b3.png" title=" Hector ingresar dispositivo" width="1360"/>
+                <img src="edd78f74ded90d525778a63702bf6d678df1788ffaaffd04fb25ace91ff806b3.png" title=" Hector clicks on Listado de dispositivos" width="1360"/>
+                <img src="0e22fc6555e54b58ba0df7c0e9a5d38abf2212f2f2a11ef6300b7a5ac1f5e615.png" title=" Hector enters 'Huawei' then hits ARROW_DOWN and ENTER into Dispositivo" width="1360"/>
+                <img src="5e552af4f436182697d97c5444c72ee57f412e5f36dc1c84c216fa7cdb6fb079.png" title=" Hector clicks on Listado de modelo de celular" width="1360"/>
+                <img src="af27f501c4dd19e1d1bf9f5060cb7ba8bbeedc335881f738033bb79e5fea6839.png" title=" Hector enters 'Poco F2 Pro' then hits ARROW_DOWN and ENTER into Celular" width="1360"/>
+                <img src="3f1e258cd823ec91a95f9e872514c02216b8276cb55c98e310f89a40a8b1fab0.png" title=" Hector clicks on Listado de sistema operativo" width="1360"/>
+                <img src="5ee16d31e87954d938b8a268d0c7a6dc1d5e310866d2d234424ca88df5b1e183.png" title=" Hector enters 'Android 10' then hits ARROW_DOWN and ENTER into Sistema operativo" width="1360"/>
+                <img src="86f0015d96491ecd756e2314334ea2e3ef731fedb113ad7e57a2febe3b2474e5.png" title=" Hector clicks on Boton de siguiente paso" width="1360"/>
+                <img src="86f0015d96491ecd756e2314334ea2e3ef731fedb113ad7e57a2febe3b2474e5.png" title=" Hector ingresar dispositivo (completed)" width="1360"/>
+                <img src="d7d0a7bd4e17affc69b3cd264d3a28dfa9eab5d47d950b1ee90977b9baecce41.png" title=" Hector ingresar contrasena" width="1360"/>
+                <img src="d7d0a7bd4e17affc69b3cd264d3a28dfa9eab5d47d950b1ee90977b9baecce41.png" title=" Hector enters 'Hector12345#' into Contrase&Atilde;&plusmn;a de cuenta" width="1360"/>
+                <img src="d6b133f65b67213f235bb5e4d2c69c784c48629b28e0f9d281e21384d2e6bc57.png" title=" Hector enters 'Hector12345#' into confirmar Contrase&Atilde;&plusmn;a de cuenta" width="1360"/>
+                <img src="a64b07ab6d74e89ef5cd360d8d2f5ef059b18716b9068c97b04ca0567311f2d6.png" title=" Hector clicks on Mantener informadoa usuario" width="1360"/>
+                <img src="d84b1d5b15cd931e223069f64a68731fce2254d9ab2ccfa0f0a5f3066a68f103.png" title=" Hector clicks on El usuario acepta los terminos" width="1360"/>
+                <img src="96a26aa81e845dd7b1a2bb9af38cce29895c388da6eeb9c298fcd05acdc18214.png" title=" Hector clicks on confirmar Contrase&Atilde;&plusmn;a de cuenta" width="1360"/>
+                <img src="4573c4d6f0ebe9a3f41c4275d620f6212b714ae63bbd9e00d895a68e70458dee.png" title=" Hector clicks on Boton de formulario de registro final" width="1360"/>
+                <img src="4573c4d6f0ebe9a3f41c4275d620f6212b714ae63bbd9e00d895a68e70458dee.png" title=" Hector ingresar contrasena (completed)" width="1360"/>
+                <img src="4573c4d6f0ebe9a3f41c4275d620f6212b714ae63bbd9e00d895a68e70458dee.png" title=" When el usuario ingresa los datos requeridos por el sistema
+| nombre | apellido | email | mesNacimiento | diaNacimiento | anoNacimiento | idioma | ciudad | zip | pais | celular | modelo | sistemaOperativo | contrasena |
+| Hector | Duran | hector2@gmail.com | January | 28 | 1993 | Spanish | Panama City Panama | 00000 | Panama | Huawei | Poco F2 Pro | Android 10 | Hector12345# | (completed)" width="1360"/>
+                <img src="24d17b37ee7003cc1e1cbf7d6a5aabea880892a5184e4f4ad0aa7427ea1cdad5.png" title=" Then el registro muestra la notificacion de completado la configuracion en pantalla
+| respuesta |
+| Complete Setup |" width="1360"/>
+                <img src="24d17b37ee7003cc1e1cbf7d6a5aabea880892a5184e4f4ad0aa7427ea1cdad5.png" title=" Then respuesta registro: <span class='failing-color'>FAILURE</span>" width="1360"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Registro de usuario en Utest.com" skipped="0" tests="1" time="49.0" timestamp="2022-03-12 11:20:28"><testcase name="Registro de Hector en la pagina Utest.com"><failure message="Expected respuesta registro&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected respuesta registro
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;</failure><system-err>Expected respuesta registro
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;&#13;
+co.com.choucair.certification.proyectobase.stepdefinitions.UtestStepDefinition.elRegistroMuestraLaNotificacionDeCompletadoLaConfiguracionEnPantalla(UtestStepDefinition.java:38)&#13;
+✽.el registro muestra la notificacion de completado la configuracion en pantalla(src/test/resources/features/registro_usuario.feature:10)&#13;
+</system-err></testcase></testsuite>
